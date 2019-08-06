@@ -28,7 +28,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT=os.path.join(BASE_DIR,'static')
 ```
 
-##urls.py:
+## urls.py:
 ```
 ...
 from django.views.generic import TemplateView
