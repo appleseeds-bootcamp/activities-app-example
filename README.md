@@ -10,7 +10,7 @@ Setup django, rename folder to BE
 Setup django app
 
 Change settings for serving REACT
-    * See the second text file for instructions
+    * See: ServeReactStaticFiles.md
 
 
 Create "Activity" model
