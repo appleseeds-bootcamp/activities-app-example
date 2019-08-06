@@ -9,6 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <a href="/activities/logout">Logout!</a>
         <ActivitiesContainer/>
       </div>
     );

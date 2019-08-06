@@ -1,7 +1,10 @@
 from django.conf.urls import url
 from . import views
+from django.contrib.auth.views import login, logout
 
 urlpatterns = [
-    url('^$', views.get_activities, name='get_activites'),
-    url('^create', views.create_new_activity, name='create_activites'),
+    url(r'^$', views.get_activities, name='get_activites'),
+    url(r'^create', views.create_new_activity, name='create_activites'),
+    url(r'^login', login, name='login'),
+    url(r'^logout', logout, name='logout')
 ]
